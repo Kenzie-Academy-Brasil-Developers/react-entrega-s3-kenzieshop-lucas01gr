@@ -15,7 +15,12 @@ export const ContainerHeader = styled.div`
   -moz-box-shadow: 3px 7px 9px -8px rgba(0, 0, 0, 0.75);
   background-color: #d3cce3;
   span {
-    color: #1F59B7;
+    color: #1f59b7;
+  }
+  button {
+    border: none;
+    background-color: #d3cce3;
+    margin-right: 25px;
   }
 `;
 export const ContainerProduct = styled.div`

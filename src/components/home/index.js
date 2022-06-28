@@ -17,9 +17,9 @@ function Home() {
         <div>
           <h3>Kenzie <span>Shop</span> </h3>
         </div>
-        <buttom onClick={() => handleNavigation("/CartShop")}>
-        <span>{cart.length}</span> <FiShoppingCart /> Carrinho 
-        </buttom>
+        <button onClick={() => handleNavigation("/CartShop")}>
+        <span>{cart.length}</span> <FiShoppingCart />  
+        </button>
       </ContainerHeader>
       <ContainerProduct>
         <Products />

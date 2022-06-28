@@ -15,7 +15,6 @@ function CartShop() {
     return valorAnterior + atualValue.price;
   }, 0);
 
-  console.log(total);
   return (
     <>
       <ContainerHeader>
@@ -25,7 +24,7 @@ function CartShop() {
           </h3>
         </div>
         <div>
-          <FiShoppingCart /> Carrinho <span></span>
+          <FiShoppingCart />
         </div>
       </ContainerHeader>
       <ContainerProductAndCart>
